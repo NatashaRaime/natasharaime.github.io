@@ -19,12 +19,13 @@ body{
 
 .comp {
   display: block;
-  font-size: 1.7em;
+  font-size: 1.25em;
   position: absolute;
   font-weight: 200;
   color: papayawhip;
   background-color: honeydew;
-  margin: 150px 200px 25px 400px;
+  margin: 100px 150px 25px 350px;
+  padding: 50px;
   font-family: Mathlete-Skinny;
   text-align: justify;
 }
