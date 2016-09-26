@@ -19,7 +19,7 @@ body{
 
 .comp {
   display: block;
-  font-size: 3.5em;
+  font-size: 2em;
   position: absolute;
   font-weight: 200;
   color: mintcream;
@@ -77,13 +77,13 @@ li a:hover {
 
 .firstcharacter {
   float: left; color: mintcream;
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 400;
   line-height: 60px;
-  padding-top: 4px;
+  padding-top: 10px;
   padding-right: 8px;
   padding-left: 3px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   font-family: Mathlete-Bulky;
 }
 
