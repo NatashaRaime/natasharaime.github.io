@@ -31,6 +31,10 @@ body {
   list-style-type: none;
 }
 
+li a{
+list-style-type: none;
+text-decoration: none;
+}
 .navigation {
     list-style-type: none;
     margin: 0;
@@ -46,17 +50,16 @@ body {
 .title {
     display: block;
     color: violet;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
-    font-family: Mathlete-Bulky;
-    font-style: italic;
-    font-size: 3em;
+    font-weight: 200;
     text-decoration: none;
 }
 
 .nav {
     display: block;
     color: mediumorchid;
+    font-size: 1em;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,7 +67,7 @@ body {
 
 .nav:hover {
     color: mintcream;
-    background-color: cyan;
+    background-color: honeydew;
 }
 
 .nav:active {
@@ -72,64 +75,71 @@ body {
     color: grey;
 }
 
-.summary{
+.titlel{
 
-  margin: 5px 20px 10px 400px;
-  float: right;
-  clear: left;
+  text-align: left;
+  font-size: 1.5em;
+  font-family: Mathlete-Skinny;
+  color: deepskyblue;
 
 }
 
-.linkp {
+ul.linkp .summary {
+  text-align: justify;
   list-style-type: none;
-  margin: 20px;
-  font-size: .5em;
-  padding: 0;
+  display: inline;
+  overflow: hidden;
+  font-size: .75em;
+  font-weight: bold;
+  padding: 5;
   width: 200px;
-  color: mediumorchid;
-  background-color: deepskyblue;
+  color: white;
 }
 
-.firstlinkp{
-  font-size: 1em;
+ul li.firstlinkp{
+  font-size: 2em;
+  color: grey;
   font-family: Mathlete-SkinnySlant;
-  font-stretch: expanded;
-  float: left; color: mintcream;
-  line-height: 30px;
-  padding-top: 4px;
+  font-weight: 100;
+  line-height: 20px;
+  margin-bottom: 5px;
+  padding-top: 8px;
   padding-right: 8px;
-  padding-left: 3px;
-  padding-bottom: 20px;
+  padding-left: 0px;
+  text-align: center;
+  padding-bottom: 8px;
 }
 
 .top-links {
-    float: left;
-    clear: right;
+  font-size: 2rem;
     list-style-type: none;
-    margin: 20px;
+    text-align: justify;
+    margin: 10px;
+    margin-top: 30px;
     padding: 0;
-    width: 200px;
-    color: mediumorchid;
-    background-color: deepskyblue;
+    width: 220px;
+    height: 375px;
+    background-color: honeydew;
+    color: dodgerblue;
+    float: left;
 }
-
-.links {
-    display: block;
-    color: lime;
-    padding: 8px 16px;
-    font-weight: 400;
-    text-decoration: none;
+li.link:first-of-type{
+  font-size: 2.5rem;
+  text-align: justify;
+  font-weight: 300;
+  background-color: papayawhip;
 }
 
 .link {
+    font-size: 1rem;
     display: block;
-    color: violet;
-    padding: 8px 16px;
+    padding: 16px;
     text-decoration: none;
 }
 
 .link:hover {
-    background-color: palegreen;
+  text-decoration: none;
+    background-color: papayawhip;
     color: deepskyblue;
 }
 
@@ -139,5 +149,23 @@ body {
 }
 
 .pspec{
-  margin: 20px;
+  font-family: Mathlete-Skinny;
+  text-align: left;
+  color: black;
+  font-size: 1em;
+  background-color: transparent;
+}
+
+footer{
+color:rgb(240, 255, 240);
+display:block;
+font-family:Mathlete-SkinnySlant;
+font-size:24px;
+font-style:normal;
+font-weight:200;
+height:30px;
+list-style-type:none;
+position:static;
+text-align: center;
+width:100%;
 }

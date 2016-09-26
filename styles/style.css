@@ -14,13 +14,57 @@
 	font-family: Mathlete-SkinnySlant;
 	src: url(mathlete/Mathlete-SkinnySlant.otf);
 }
-
+a, a:visited{
+	color: skyblue;
+	font-family: Mathlete-Skinny;
+	font-size: 2em;
+}
 
 .bg{
   background-image:url('../images/colorspec.jpg');
   background-size: 100%;
 }
 
+
+.navigation {
+		z-index: 30;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+
+.nav {
+    float: left;
+}
+
+.title {
+    display: block;
+    color: violet;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: Mathlete-SkinnySlant;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+    color: mediumorchid;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: mintcream;
+}
+
+.nav:active {
+    background-color: pink;
+    color: grey;
+}
 
 .homepage{
 z-index: 5;
@@ -37,21 +81,6 @@ font-weight: 400;
 font-family: Mathlete-BulkySlant;
 }
 
-.name{
-  z-index: 4;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding: 5px 0 5px 70%;
-  position:relative;
-  display: flex;
-  font-size: 3em;
-  text-align: right;
-  font-family:Mathlete-SkinnySlant;
-  font-weight:200;
-}
-
-
-
 .description{
   z-index: 0;
   margin-left: 40%;
@@ -59,10 +88,10 @@ font-family: Mathlete-BulkySlant;
   padding: 10% 5% 10% 5%;
   position:relative;
   display:block;
-  font-size: 2.2em;
+  font-size: 3.5rem;
   text-align: center;
   font-family: Mathlete-SkinnySlant;
-  color: grey;
+  color: dodgerblue;
   align-content: center;
   border-color: #84e1e8;
   border-style: solid;
@@ -71,20 +100,14 @@ font-family: Mathlete-BulkySlant;
 }
 .verb{
   z-index: 3;
-  width: 65%;
-  max-height: 500px;
   position: relative;
-  font-family: mathlete-bulky;
-  font-size: 4.rem;
-  /*background-color: #DBF0FF;*/
-  color: #64ebf3;
+  font-family: mathlete-Skinny;
+  font-size: 2em;
+  color: papayawhip;
   text-align: left;
   z-index: 20;
-  padding: 30px 25px 30px 5px;
+  padding: 20px 120px 40px 30px;
   margin: 10px 0px 20px 11px;
-  margin-left: 11px;
-  margin-right: 0;
-  font-style: italic;
 justify-content: center;
 -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
@@ -99,17 +122,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b38de2', end
 }
 
 .verbish{
-  width: 70%;
-  height: 200px;
+  width: 400px;
   position: absolute;
-  font-size: 4.7rem;
+  font-size: 3rem;
   display: block;
   vertical-align: middle;
 	justify-content: center;
-	align-items: center;
+	align-items: right;
   text-align: center;
+  background-color: deepskyblue;
   color: #ffe2f9;
-  background-color: #e244ac;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   z-index: 0;
@@ -117,7 +139,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b38de2', end
   font-style: oblique;
   text-transform: capitalize;
   padding: 4.25px 4px 50px 4px;
-  margin: 18px 15px 17px 60px;
+  margin: 20px 20px 17px 200px;
   }
 
 
