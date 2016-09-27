@@ -24,13 +24,65 @@ body{
   font-weight: 200;
   background-color: papayawhip;
   color: dodgerblue;
-  margin: 300px 150px 25px 350px;
+  margin: 70px 5px 25px 200px;
   padding: 50px;
   font-family: Mathlete-Skinny;
   text-align: justify;
 }
 
+.nav li a{
+list-style-type: none;
+text-decoration: none;
+}
+
+ul, menu, dir {
+    display: block;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.navigation {
+		z-index: 30;
+    font-size: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+
+
+.title {
+    display: block;
+    color: turquoise;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: Mathlete-SkinnySlant;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+    position: absolute;
+    display: block;
+    color: turquoise;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: honeydew;
+}
+
+.nav:active {
+    color: orchid;
+}
+
+
 .portfolio{
+  position: relative;
   width: 80%;
   height: 100px;
   color: lightpink;
@@ -38,7 +90,7 @@ body{
   vertical-align: middle;
   font-weight: 300;
   font-size: 2.5em;
-  border-style: ridge;
+  border-style: solid;
   border-width: thick;
   border-color: #84e1e8;
   font-family: Mathlete-Skinny;
@@ -53,15 +105,16 @@ ul {
     list-style-type: none;
     text-decoration: none;
     margin: 0;
+    width: 100%;
     padding: 0;
-    width: 200px;
+    /*width: 200px;*/
 
 }
 
-li a {
+ li a {
     display: block;
     list-style-type: none;
-    width: 60px;
+    /*width: 60px;*/
     text-decoration: none;
     text-align:right;
     border-bottom: 4px solid papayawhip;
