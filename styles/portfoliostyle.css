@@ -5,70 +5,33 @@ html, body { height: 100%; }
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-body{
-  font-weight: 200;
-  font-size: 2em;
-  color:gainsboro;
-  font-style: normal;
-  font-family: Mathlete-Skinny;
-  text-align: center;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.comp {
-  display: block;
-  font-size: 1.25em;
-  position: absolute;
-  font-weight: 200;
-  background-color: papayawhip;
-  color: dodgerblue;
-  margin: 70px 5px 25px 200px;
-  padding: 50px;
-  font-family: Mathlete-Skinny;
-  text-align: justify;
-}
-
-.nav li a{
-list-style-type: none;
-text-decoration: none;
-}
-
-ul, menu, dir {
-    display: block;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
-}
-
 .navigation {
 		z-index: 30;
-    font-size: 2em;
+    font-size: 1.5em;
     list-style-type: none;
-    margin: 0;
-    padding: 5;
+    float: left;
+    padding: 15;
     overflow: hidden;
     background-color: papayawhip;
 }
 
-
 .title {
     display: block;
     color: turquoise;
-    text-align: right;
-    padding: 14px 16px;
+    text-align: left;
+    padding: 14px;
     font-family: Mathlete-SkinnySlant;
-    font-size: 1em;
     text-decoration: none;
 }
 
 .nav {
     float: left;
-    position: absolute;
+    margin-bottom: 15px;
     display: block;
     color: turquoise;
     text-align: center;
-    padding: 14px 16px;
+    padding-left: 65px;
+    padding-right: 65px;
     text-decoration: none;
 }
 
@@ -80,41 +43,64 @@ ul, menu, dir {
     color: orchid;
 }
 
+body{
+  font-weight: 200;
+  font-size: 1em;
+  color:gainsboro;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.comp {
+  display: block;
+  position: absolute;
+  font-weight: 200;
+  color: papayawhip;
+  margin: 120px 5px 25px 175px;
+  padding: 25px;
+  font-size: 2em;
+  font-family: Mathlete-Skinny;
+  text-align: justify;
+}
 
 .portfolio{
-  position: relative;
   width: 80%;
-  height: 100px;
+  height: 140px;
+  margin-left: 170px;
+  padding-top: 5px;
+  padding-bottom: 20px;
   color: lightpink;
   display: inline;
   vertical-align: middle;
   font-weight: 300;
-  font-size: 2.5em;
-  border-style: solid;
+  font-size: 6em;
+  border-style: ridge;
   border-width: thick;
   border-color: #84e1e8;
   font-family: Mathlete-Skinny;
 }
 
 a:-webkit-any-link {
-    color:mintcream;
+    color:aqua;
   }
 
-ul {
+ul.reference {
     position: relative;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
-    width: 100%;
     padding: 0;
-    /*width: 200px;*/
+    width: 200px;
 
 }
 
- li a {
+.reference li a  {
     display: block;
     list-style-type: none;
-    /*width: 60px;*/
+    width: 60px;
     text-decoration: none;
     text-align:right;
     border-bottom: 4px solid papayawhip;
@@ -131,14 +117,14 @@ li a:hover {
 }
 
 .firstcharacter {
-  float: left; color: dodgerblue;
+  float: left; color: mintcream;
   font-size: 3em;
   font-weight: 400;
   line-height: 60px;
-  padding-top: 10px;
+  padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   font-family: Mathlete-Bulky;
 }
 
