@@ -10,23 +10,14 @@ section.container {
 }
 
 section.resume-container {
-	background: lightblue;
-	color: black;
-	font-size: 25px;
-}
-
-section.resume-container {
-	color: skyblue;
-	background: silver;
-	border: solid 1px gold;
-	margin: 5px;
-}
-
-section.secondary-container {
-	color: skyblue;
-	background: silver;
-	border: solid 1px gold;
-	padding: 10px 5px;
+	color: #3498DB;
+	background: white;
+	border: solid 1px silver;
+	text-align: justify;
+	display: inline-block;
+	width: 70%;
+	margin: 3% 12%;
+	padding: 10px 36px 10px 20px;
 }
 
 ul.menu {
@@ -37,43 +28,55 @@ ul.menu {
 	padding: 15px 35px;
 }
 
-li.link:hover {
-	background: lightgrey;
-}
-
 h1.headline {
 	color: hotpink;
 	font-size: 55px;
 	font-family: 'League Script';
 	padding: 45px 15px;
 }
+h1.head-title {
+	color: #73ACF0;
+	font-size: 80px;
+	font-family: 'Poiret One';
+}
+h1.title {
+	font-size: 50px;
+	font-family: 'Junge';
+	padding: 4% 0 1% 0;
+}
 
-h2.title {
-	font-size: 45px;
-	font-family: 'Lora';
-	color: #3498DB;
+h1.lead {
+	color: hotpink;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'League Script';
 }
 
 h2.subtitle {
-	font-size: 35px;
-	font-family: 'Poiret One'
+	font-size: 30px;
+	font-family: 'Junge';
+	padding: 10px 25px 10px 25px;
 }
 
 h3.header {
 	font-size: 25px;
-	font-family: 'Lora';
-	text-align: left;
-	margin: 5px 10px;
-	padding: 15px 20% ;
+	font-family: 'Poiret One';
+	text-align: justify;
+	padding: 20px 100px 15px 100px;
 }
 
-h4.miniscule {
-	font-size: 10px;
+li.link.miniscule:hover {
+	background: #EEADE5
+}
+
+li.link.miniscule {
+	font-size: 20px;
+	font-family: 'Poiret One';
 }
 
 article.thoughts-block {
 	font-size: 20px;
-	font-family: 'Poiret One';
+	font-family: 'Lora';
 	margin: 5% 25%;
 	text-align: justify;
 }
