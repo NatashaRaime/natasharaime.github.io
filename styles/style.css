@@ -69,6 +69,7 @@ h3.content {
 	font-size: 25px;
 	font-family: 'Poiret One';
 	text-align: justify;
+	padding: 8px 10px;
 }
 
 li.link.miniscule:hover {
