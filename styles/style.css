@@ -15,7 +15,7 @@ section.resume-container {
 	border: solid 1px silver;
 	text-align: justify;
 	display: inline-block;
-	width: 70%;
+	width: 85%;
 	margin: 3% 12%;
 	padding: 10px 12px 10px 0px;
 }
@@ -63,6 +63,12 @@ h3.header {
 	font-family: 'Poiret One';
 	text-align: justify;
 	padding: 20px 100px 15px 100px;
+}
+
+h3.content {
+	font-size: 25px;
+	font-family: 'Poiret One';
+	text-align: justify;
 }
 
 li.link.miniscule:hover {
