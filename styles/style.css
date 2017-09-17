@@ -19,7 +19,7 @@ display: inline-block;
 	vertical-align: center;
 	background-color: #f2f2f2;
 	margin: 2%;
-	padding: 3% 5%;
+	padding: 3% 2%;
 }
 section.resume-container {
 	color: #3498DB;
@@ -36,21 +36,23 @@ ul.menu {
 	font-size: 22px;
 	font-family: 'Poiret One';
 	font-weight: bold;
-	/*padding: 5px 15px 10px 15px;*/
 }
+
 ul.resume.list {
 padding: 22px 25px;
 text-decoration: none;
 }
+
 ul.resume,li{
 	padding: 5px 10px 0px 10px;
 }
+
 h1.headline {
 	color: hotpink;
-	font-size: 75px;
+	font-size: 60px;
 	font-family: 'League Script';
 	text-align: center;
-	padding: 45px 15px;;
+	padding: 45px 15px;
 }
 
 h1.head-title {
@@ -83,10 +85,10 @@ h3.header {
 }
 
 h3.content {
-	font-size: 28px;
+	font-size: 25px;
 	font-family: 'Poiret One';
-	text-align: justify;
-	padding: 10px 40px 10px 40px;
+	text-align: left;
+	padding: 10px 30px 10px 30px;
 }
 
 li.link.miniscule:hover {
@@ -104,8 +106,8 @@ article.thoughts-block {
 	font-size: 25px;
 	font-family: 'Lora';
 	display: inline-block;
-	width: 95%;
-	padding: 50px 50px 30px 50px;
+	width: 100%;
+	padding: 40px 15px 30px 15px;
 	text-align: justify;
 }
 
@@ -114,4 +116,4 @@ font-family: 'Lora';
 text-align:center;
 font-size: 70px;
 border-bottom:2px solid deepskyblue;
-margin: 20% 0 10% 0;
+margin: 15% 0 10% 0;
