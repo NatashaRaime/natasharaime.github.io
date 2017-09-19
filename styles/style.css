@@ -3,8 +3,7 @@
 h1.headline {
   color: #ff99ff;
   width: 100%;
-  display: inline-block;
-  margin: 20px;
+  margin: 15px;
   font-family: "League Script";
   font-size: 55px;
 }
@@ -48,8 +47,6 @@ li.link, ul.menu {
   padding: 15px;
 }
 
-div.row { width: 100%; }
-ul.menu {  border: solid 1px #99ffff; }
 li.link:hover{ background-color:  #ffccff; }
 
 img.pano {
@@ -60,12 +57,10 @@ img.pano {
 
 section.container {
   background-color: garamond;
-  border: 2px solid lightskyblue;
-  display: inline-block;
   width: 100%;
   margin: 10px;
-  padding: 15px 25px;
-  font-size: 22px;
+  padding: 15px;
+  font-size: 23px;
 }
 
 article.thoughts-block {
@@ -77,10 +72,9 @@ article.thoughts-block {
 }
 
 img.thumbnail {
-  overflow: hidden;
   height: 350px;
   width: 30%;
   margin: 5px;
-  padding: 5px 15px;
+  padding: 5px;
   border: solid 1px #99ffff;
 }
