@@ -66,10 +66,10 @@ section.container {
 }
 
 img.pano {
-  height: 300px;
-  width: 670px;
-  padding: 3% 5%;
-  margin: 3% 10%;
+  overflow: hidden;
+  height: 25%;
+  width: 64%;
+  padding: 6% 6%;
   border: solid 1px #99ffff;
 }
 
@@ -82,8 +82,8 @@ img.profile {
 }
 
 img.thumbnail {
-  height: 300px;
-  width: 250px;
-  padding: 2% 5%;
+    overflow: hidden;
+  height: 25%;
+  padding: 6% 6%;
   border: solid 1px #99ffff;
 }
