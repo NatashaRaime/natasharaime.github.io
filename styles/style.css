@@ -3,11 +3,9 @@
 h1.headline {
   color: #ff99ff;
   width: 75%;
-  vertical-align: center;
-  margin: 20px 35px;
+  margin: 20px;
   font-family: "League Script";
-  font-size: 65px;
-  overflow: hidden;
+  font-size: 55px;
 }
 
 h2.title {
@@ -27,12 +25,12 @@ h3.header {
   color: black;
   font-family: "Poiret One";
   font-size: 25px;
-  margin: 15px 25px;
+  margin: 15px;
 }
 
 h4.content {
   color: skyblue;
-  margin: 0 15px 40px 15px;
+  margin: 0 15px 20px 15px;
   text-align: center;
   font-family: "Poiret One";
   font-size: 22px;
@@ -40,7 +38,7 @@ h4.content {
 ul.list {
     font-family: "Poiret One";
     color: grey;
-    font-size: 22px;
+
 }
 
 li.link, ul.menu {
@@ -48,8 +46,7 @@ li.link, ul.menu {
   background-color: garamond;
   color: lightskyblue;
   font-size: 30px;
-  margin-top: 10px 15px 3px 15px;
-  padding: 15px 45px;
+  padding: 15px;
 }
 
 div.row { width: 100%; }
@@ -58,7 +55,7 @@ li.link:hover{ background-color:  #ffccff; }
 
 img.pano {
   width: 100%;
-  padding: 45px;
+  padding: 20px;
   border: solid 1px #99ffff;
 }
 
@@ -68,15 +65,14 @@ section.container {
   display: inline-block;
   width: 100%;
   margin: 10px;
-  padding: 25px;
+  padding: 15px 25px;
+  font-size: 22px;
 }
 
 article.thoughts-block {
   color: deepskyblue;
   font-family: "Tillana";
-  font-size: 20px;
-  margin-top: 10px 15px 3px 15px;
-  padding: 15px 45px;
+  font-size: 22px;
   text-align: justify;
   display: inline-block;
 }
@@ -85,7 +81,7 @@ img.thumbnail {
   overflow: hidden;
   height: 350px;
   width: 30%;
-  margin: 5px 15px;
-  padding: 5px 25px;
+  margin: 5px;
+  padding: 5px 15px;
   border: solid 1px #99ffff;
 }
