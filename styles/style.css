@@ -36,19 +36,17 @@ ul.list {
 
 li.link, ul.menu {
   font-family: "Poiret One";
-  background-color: garamond;
-  color: lightskyblue;
+  color: deepskyblue;
   font-size: 30px;
   padding: 15px;
 }
 
 li.link:hover{ background-color:  #ffccff; }
 
-/*section.container {
+section.container {
   width: 100%;
   margin: 5px;
-  font-size: 23px;
-}*/
+}
 
 article.thoughts-block {
   color: deepskyblue;
@@ -59,15 +57,13 @@ article.thoughts-block {
 }
 
 img.pano {
-  height: 400px;
+  height: 250px;
   padding: 5px 15px;
   border: solid 1px #99ffff;
 }
 
 img.thumbnail {
   height: 250px;
-  width: 30%;
-  margin: 5px;
-  padding: 5px 10px;
+  padding: 5px;
   border: solid 1px #99ffff;
 }
