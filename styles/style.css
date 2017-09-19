@@ -1,5 +1,3 @@
-/*website style*/
-
 h1.headline {
   color: #ff99ff;
   width: 100%;
@@ -29,14 +27,9 @@ h4.content, h3.header {
   font-size: 25px;
 }
 
-ul.list {
-    font-family: "Poiret One";
-    color: grey;
-}
-
-li.link, ul.menu {
+li.link, ul.menu, ul.list {
   font-family: "Poiret One";
-  color: deepskyblue;
+  color: grey;
   font-size: 30px;
   padding: 15px;
 }
@@ -44,16 +37,13 @@ li.link, ul.menu {
 li.link:hover{ background-color:  #ffccff; }
 
 section.container {
-  width: 100%;
-  margin: 5px;
-}
-
-article.thoughts-block {
   color: deepskyblue;
   font-family: "Tillana";
   font-size: 22px;
   text-align: justify;
   display: inline-block;
+  width: 100%;
+  margin: 5px;
 }
 
 img.pano {
