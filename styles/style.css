@@ -1,111 +1,86 @@
 @import "bootstrap";
 
-body, .container-fluid {
-    color: rgb(34, 39, 44);
+body, .container-fluid, div.container-fluid {
+    width: 100%;
     background-color: whitesmoke;
-    margin: 4%;
+    margin: 5%;
     padding: 5px;
 }
-div.container-fluid.resume {
-    margin: 20px;
-    padding: 5px 20px;
-    display: inline-block;
-    text-align: center;
-}
-h1.headline {
-    color: #ff99ff; 
-    font-size: 30px;
-    text-align: center;
-    font-weight: bolder;
-    font-family: "League Script";
-    padding: 25px;
-}
 
-h2.title, h2.subtitle {
-    color: rgb(5, 164, 204);
-    font-size: 40px;
+h2, h2.subtitle, section>h2, h2.title{
+    color: rgb(3, 79, 104);
+    font-size: 18px;
     font-family:"Tillana";
+    display: inline-block;
 }
 
-h2.subtitle, section>h2{
+p, img, article {
+    display: inline-block;
+    width: 80%;
+    margin: 0% 10%;
+    text-align: justify;
+    font-family: "Quattrocento";
+    font-size: 13px;   
+}
+article, p {
+    color: rgb(3, 79, 104); 
+}
+h2.title {
     color: rgb(65, 208, 255);
     font-size: 25px;
-    font-family: "Poiret One";
 }
 
-h3.header, article.thoughts-block {
-    font-size: 15px;
-    font-family: "Poiret One";
-}
-
-img.pano {
-  width: 90%;
-  padding: 15px;
-}
-
-img.thumbnail:hover {
-    border-color: rgb(224, 175, 95);
-}
-
-img.thumbnail {
-    border: solid 1px rgb(184, 152, 56);
-    margin: 5px;
-    width: 30%;
-    height: auto; 
-    display: inline-block;
-}
-.trw, section.trw {
-    width: 100%;
-    align-content: center;
-    text-align: center;
-    position: sticky;
-    display: inline-block;
-}
-ul.menu>li>a:hover {
-    color: rgb(5, 164, 204);
-}
-ul.menu>li>a.blanca {
-    color: rgb(3, 79, 104);
-}
-a:focus, a:hover, ul.menu>li>a:hover {
-    text-decoration: none;
-    background-color: transparent;
-    color: rgb(224, 175, 95);
-}
-li.link>a.a {
-    color: rgb(32, 32, 32);
-    font-family: "Poiret One";
-    font-size: 23px;
-}
-li.link>a.a:hover {
-    color:silver;
-}
-ul>menu, ul.menu>li>a, li>link, li>link>a, li>.a>.link, a.control>h2{
+section>div>a, a, ul.menu>li>a, ul>li>a, a.control>h2, li.link>a.a, ul.menu>li>a.fa{
     color: rgb(184, 152, 56);
-    padding: 15px;
+    margin: 2%;
+    display: inline;
     text-decoration: none;
     font-family: "Quattrocento";
-    font-size: 30px;
+    font-size: 22px;
+    text-align: left;
   }
-  div.top-bar a, div>.top-bar, ul.menu>li>a.fa {
-      font-family: "Poiret One";
-      color: rgb(165, 163, 163);
-      font-size: 20px;
-  }
-  div.top-bar a:hover, div>.top-bar:hover, ul.menu>li>a.fa:hover {
-      color: silver;
-  }
-  
-img.car {
-    overflow: hidden;
-    vertical-align: bottom;
-    border: solid 1px darkgray; 
+
+a.thumb:hover, section.trw>a.thumb:hover, section>div>a:hover, a:active, a:hover, ul.menu>li>a.fa:hover, li.link>a.a:hover, a.a.sub:hover, a.a.sub:active {
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: rgb(224, 175, 95);
+}
+div>a.blanca {
+    width: 22%;
+    color:  rgb(182, 130, 46);
+    border: 1px solid rgb(182, 130, 46);
+    font-family: "Quattrocento";
+    margin: 1px;
 }
 
-.carousel, .carousel-inner, a>.right{
-    background-color: transparent;
+a.thumb.image-responsive, section.trw>a.thumb, img.thumb, .thumbnail, img.thumb.image-responsive {
+    border: 1px solid rgb(182, 130, 46);
+    font-family: "Quattrocento";
+    margin: 1px;
+    width: 30%;
+    height: auto; 
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    color:  rgb(182, 130, 46);
+}
+
+.trw, section.trw, img.pano, div>a.blanca {
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.carousel, div#mcarousel>a.control, .carousel-control, a>.right{
+    background-color: none;
     overflow: hidden;
+    text-decoration: none;
+    border: none;
     height: 30%;
   }
-
+  div.carousel-inner {
+    height: 30%;
+    
+  }
 
