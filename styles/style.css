@@ -3,40 +3,63 @@
 body, .container-fluid, div.container-fluid {
     width: 100%;
     background-color: whitesmoke;
+    font-family: "Quattrocento";
     margin: 5%;
     padding: 5px;
+    font-size: 16px;
 }
 
-h2, h2.subtitle, section>h2, h2.title{
-    color: rgb(3, 79, 104);
-    font-size: 18px;
-    font-family:"Tillana";
-    display: inline-block;
+h2.subtitle, section>h2, h2{
+    margin: 10px;
+    font-family: "Quattrocento";
+    color: rgb(129, 151, 158);
+    font-size: 16px;
+    display: block;
+}
+section.callout {
+    margin: 8px;
+}
+h2.title {
+    color: rgb(146, 146, 146);
+    font-size: 23px;
+    font-weight: bolder;
+    display: block;
+    margin: 4% 0% 2% 0;
+    font-family: "Poiret One";
 }
 
 p, img, article {
     display: inline-block;
     width: 80%;
-    margin: 0% 10%;
+    margin: 0% 4%;
     text-align: justify;
     font-family: "Quattrocento";
     font-size: 13px;   
 }
+
 article, p {
-    color: rgb(3, 79, 104); 
-}
-h2.title {
-    color: rgb(65, 208, 255);
-    font-size: 25px;
+    color: rgb(161, 160, 160);
 }
 
-section>div>a, a, ul.menu>li>a, ul>li>a, a.control>h2, li.link>a.a, ul.menu>li>a.fa{
+section>div {
+    border-bottom: solid 1px rgb(184, 152, 56);
+    width: 100%;
+    margin: 8px 0px;
+}
+section>div>a, ul>li>a{
+    font-family: "Poiret One";
+    font-size: 25px;
     color: rgb(184, 152, 56);
-    margin: 2%;
-    display: inline;
+    margin: 1% 0%;
+    padding: 2%;
+}
+ ul.menu, a.control>h2 {
+    color: rgb(184, 152, 56);
+    margin: 1% 0%;
+    padding: 2%;
     text-decoration: none;
     font-family: "Quattrocento";
-    font-size: 22px;
+    font-size: 40px;
     text-align: left;
   }
 
@@ -45,6 +68,7 @@ a.thumb:hover, section.trw>a.thumb:hover, section>div>a:hover, a:active, a:hover
     background-color: whitesmoke;
     color: rgb(224, 175, 95);
 }
+
 div>a.blanca {
     width: 22%;
     color:  rgb(182, 130, 46);
@@ -58,8 +82,7 @@ a.thumb.image-responsive, section.trw>a.thumb, img.thumb, .thumbnail, img.thumb.
     font-family: "Quattrocento";
     margin: 1px;
     width: 30%;
-    height: auto; 
-    font-size: 22px;
+    text-align: center;
     display: inline-block;
     text-decoration: none;
     color:  rgb(182, 130, 46);
@@ -67,7 +90,7 @@ a.thumb.image-responsive, section.trw>a.thumb, img.thumb, .thumbnail, img.thumb.
 
 .trw, section.trw, img.pano, div>a.blanca {
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     display: inline-block;
 }
@@ -79,8 +102,18 @@ a.thumb.image-responsive, section.trw>a.thumb, img.thumb, .thumbnail, img.thumb.
     border: none;
     height: 30%;
   }
+
   div.carousel-inner {
     height: 30%;
-    
   }
 
+
+i.fa,  li.link>a.a, a {
+    color: rgb(184, 152, 56);
+    padding: 20px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    height: auto; 
+
+}
